@@ -1,21 +1,21 @@
-#Proyecto de software ventefacturación e inventario.
-##Daytona
+# Proyecto de software ventefacturación e inventario.
+## Daytona
 
-####**Descripción del proyecto**
-este es un proyecto creado en c# y sqlserver 2014 con programación en capas
+#### **Descripción del proyecto**
+```este es un proyecto creado en c# y sqlserver 2014 con programación en capas```
 
 ![Daytona](Daytona.png "Daytona.png")
 
-###Lengua de programación
-*c#
+### Lengua de programación
+* c#
 
 ###Base de Dato
-*mssqlserver
-*procedimiento almacenado storeprocedure
-*disparadores de eventos Trigger
+* mssqlserver
+* procedimiento almacenado storeprocedure
+* disparadores de eventos Trigger
 
 ###Modelos usados
-*Programacion en capa
-*Programacion orientada a objeto
+* Programacion en capa
+* Programacion orientada a objeto
 
 @erick :smiley: :+1:
