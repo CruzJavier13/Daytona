@@ -5,7 +5,7 @@
 ```este es un proyecto creado en c# y sqlserver 2014 con programación en capas```
 
 ![Daytona](Daytona.png "Daytona.png")
-![Bienvenida](Bienvenida.png "Bienvenida.png")
+![Bienvenida](Bienvenida.PNG "Bienvenida.PNG")
 ![Cliente](Cliente.png "Cliente.png")
 ### Lengua de programación
 * c#
