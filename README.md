@@ -9,12 +9,12 @@
 ### Lengua de programación
 * c#
 
-###Base de Dato
+### Base de Dato
 * mssqlserver
 * procedimiento almacenado storeprocedure
 * disparadores de eventos Trigger
 
-###Modelos usados
+### Modelos usados
 * Programacion en capa
 * Programacion orientada a objeto
 
