@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EA4EAFD8-A80A-4B1F-B7CF-0853EC64C3FA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Deytona</RootNamespace>
+    <AssemblyName>Deytona</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bienvenida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bienvenida.Designer.cs">
+      <DependentUpon>Bienvenida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cargo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cargo.Designer.cs">
+      <DependentUpon>Cargo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Categoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Categoria.Designer.cs">
+      <DependentUpon>Categoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente.Designer.cs">
+      <DependentUpon>Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cls_EstiloDataGridView.cs" />
+    <Compile Include="Detalle Factura Servicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Detalle Factura Servicio.Designer.cs">
+      <DependentUpon>Detalle Factura Servicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Detalle Factura Vehiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Detalle Factura Vehiculo.Designer.cs">
+      <DependentUpon>Detalle Factura Vehiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Detalle Lote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Detalle Lote.Designer.cs">
+      <DependentUpon>Detalle Lote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Documentacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Documentacion.Designer.cs">
+      <DependentUpon>Documentacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Entrada.Designer.cs">
+      <DependentUpon>Entrada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Equipo Mecanico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Equipo Mecanico.Designer.cs">
+      <DependentUpon>Equipo Mecanico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Factura Repuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Factura Repuesto.Designer.cs">
+      <DependentUpon>Factura Repuesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Factura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Factura.Designer.cs">
+      <DependentUpon>Factura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Factura_Servicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Factura_Servicio.Designer.cs">
+      <DependentUpon>Factura_Servicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forma_Pago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forma_Pago.Designer.cs">
+      <DependentUpon>Forma_Pago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Empleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empleado.Designer.cs">
+      <DependentUpon>Empleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Historial_Precio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Historial_Precio.Designer.cs">
+      <DependentUpon>Historial_Precio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventario.Designer.cs">
+      <DependentUpon>Inventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lote.Designer.cs">
+      <DependentUpon>Lote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento.Designer.cs">
+      <DependentUpon>Mantenimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuDaytona.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuDaytona.Designer.cs">
+      <DependentUpon>MenuDaytona.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Moneda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Moneda.Designer.cs">
+      <DependentUpon>Moneda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Precio Repuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Precio Repuesto.Designer.cs">
+      <DependentUpon>Precio Repuesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proveedor.Designer.cs">
+      <DependentUpon>Proveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registro Mantenimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro Mantenimiento.Designer.cs">
+      <DependentUpon>Registro Mantenimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Repuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Repuesto.Designer.cs">
+      <DependentUpon>Repuesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salida.Designer.cs">
+      <DependentUpon>Salida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Servicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Servicio.Designer.cs">
+      <DependentUpon>Servicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tipo_Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tipo_Cliente.Designer.cs">
+      <DependentUpon>Tipo_Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tipo_Mantenimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tipo_Mantenimiento.Designer.cs">
+      <DependentUpon>Tipo_Mantenimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tipo_Proveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tipo_Proveedor.Designer.cs">
+      <DependentUpon>Tipo_Proveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tipo_Servicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tipo_Servicio.Designer.cs">
+      <DependentUpon>Tipo_Servicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usuario.Designer.cs">
+      <DependentUpon>Usuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Validacion.cs" />
+    <Compile Include="Vehiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vehiculo.Designer.cs">
+      <DependentUpon>Vehiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vehiculo_Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vehiculo_Cliente.Designer.cs">
+      <DependentUpon>Vehiculo_Cliente.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Bienvenida.resx">
+      <DependentUpon>Bienvenida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cargo.resx">
+      <DependentUpon>Cargo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Categoria.resx">
+      <DependentUpon>Categoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente.resx">
+      <DependentUpon>Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detalle Factura Servicio.resx">
+      <DependentUpon>Detalle Factura Servicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detalle Factura Vehiculo.resx">
+      <DependentUpon>Detalle Factura Vehiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detalle Lote.resx">
+      <DependentUpon>Detalle Lote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documentacion.resx">
+      <DependentUpon>Documentacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Entrada.resx">
+      <DependentUpon>Entrada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Equipo Mecanico.resx">
+      <DependentUpon>Equipo Mecanico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Factura Repuesto.resx">
+      <DependentUpon>Factura Repuesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Factura.resx">
+      <DependentUpon>Factura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Factura_Servicio.resx">
+      <DependentUpon>Factura_Servicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forma_Pago.resx">
+      <DependentUpon>Forma_Pago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empleado.resx">
+      <DependentUpon>Empleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Historial_Precio.resx">
+      <DependentUpon>Historial_Precio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario.resx">
+      <DependentUpon>Inventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lote.resx">
+      <DependentUpon>Lote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento.resx">
+      <DependentUpon>Mantenimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuDaytona.resx">
+      <DependentUpon>MenuDaytona.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Moneda.resx">
+      <DependentUpon>Moneda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Precio Repuesto.resx">
+      <DependentUpon>Precio Repuesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Proveedor.resx">
+      <DependentUpon>Proveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro Mantenimiento.resx">
+      <DependentUpon>Registro Mantenimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Repuesto.resx">
+      <DependentUpon>Repuesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salida.resx">
+      <DependentUpon>Salida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicio.resx">
+      <DependentUpon>Servicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tipo_Cliente.resx">
+      <DependentUpon>Tipo_Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tipo_Mantenimiento.resx">
+      <DependentUpon>Tipo_Mantenimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tipo_Proveedor.resx">
+      <DependentUpon>Tipo_Proveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tipo_Servicio.resx">
+      <DependentUpon>Tipo_Servicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usuario.resx">
+      <DependentUpon>Usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vehiculo.resx">
+      <DependentUpon>Vehiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vehiculo_Cliente.resx">
+      <DependentUpon>Vehiculo_Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaDato\CapaDato.csproj">
+      <Project>{c5631c38-f4b4-4caa-bfd7-af7cce93b553}</Project>
+      <Name>CapaDato</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CapaLogica\CapaLogica.csproj">
+      <Project>{dcaeb16c-2f23-4e2e-b650-8e384a884c7a}</Project>
+      <Name>CapaLogica</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,16 @@
+C:\Users\Erick\Desktop\Proyecto Ingenieria\Deytona\Deytona\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\Erick\Desktop\Proyecto Ingenieria\Deytona\Deytona\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\Erick\Desktop\Proyecto Ingenieria\Deytona\Deytona\CapaLogica\bin\Debug\CapaDato.dll
+C:\Users\Erick\Desktop\Proyecto Ingenieria\Deytona\Deytona\CapaLogica\bin\Debug\CapaDato.pdb
+C:\Users\Erick\Desktop\Proyecto Ingenieria\Deytona\Deytona\CapaLogica\obj\Debug\CapaLogica.csprojResolveAssemblyReference.cache
+C:\Users\Erick\Desktop\Proyecto Ingenieria\Deytona\Deytona\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\Erick\Desktop\Proyecto Ingenieria\Deytona\Deytona\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Users\Cruz\Downloads\Proyecto Ingenieria\Deytona\Deytona\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\Cruz\Downloads\Proyecto Ingenieria\Deytona\Deytona\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\Cruz\Downloads\Proyecto Ingenieria\Deytona\Deytona\CapaLogica\bin\Debug\CapaDato.dll
+C:\Users\Cruz\Downloads\Proyecto Ingenieria\Deytona\Deytona\CapaLogica\bin\Debug\CapaDato.pdb
+C:\Users\Cruz\Downloads\Proyecto Ingenieria\Deytona\Deytona\CapaLogica\obj\Debug\CapaLogica.csproj.AssemblyReference.cache
+C:\Users\Cruz\Downloads\Proyecto Ingenieria\Deytona\Deytona\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Users\Cruz\Downloads\Proyecto Ingenieria\Deytona\Deytona\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
+C:\Users\Cruz\Downloads\Proyecto Ingenieria\Deytona\Deytona\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\Cruz\Downloads\Proyecto Ingenieria\Deytona\Deytona\CapaLogica\obj\Debug\CapaLogica.pdb

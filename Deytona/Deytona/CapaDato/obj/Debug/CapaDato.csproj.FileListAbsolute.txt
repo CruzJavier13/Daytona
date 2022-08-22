@@ -1,0 +1,11 @@
+C:\Users\Erick\Desktop\Proyecto Ingenieria\Deytona\Deytona\CapaDato\bin\Debug\CapaDato.dll
+C:\Users\Erick\Desktop\Proyecto Ingenieria\Deytona\Deytona\CapaDato\bin\Debug\CapaDato.pdb
+C:\Users\Erick\Desktop\Proyecto Ingenieria\Deytona\Deytona\CapaDato\obj\Debug\CapaDato.dll
+C:\Users\Erick\Desktop\Proyecto Ingenieria\Deytona\Deytona\CapaDato\obj\Debug\CapaDato.pdb
+C:\Users\Erick\Desktop\Proyecto Ingenieria\Deytona\Deytona\CapaDato\obj\Debug\CapaDato.csprojResolveAssemblyReference.cache
+C:\Users\Cruz\Downloads\Proyecto Ingenieria\Deytona\Deytona\CapaDato\bin\Debug\CapaDato.dll
+C:\Users\Cruz\Downloads\Proyecto Ingenieria\Deytona\Deytona\CapaDato\bin\Debug\CapaDato.pdb
+C:\Users\Cruz\Downloads\Proyecto Ingenieria\Deytona\Deytona\CapaDato\obj\Debug\CapaDato.csproj.AssemblyReference.cache
+C:\Users\Cruz\Downloads\Proyecto Ingenieria\Deytona\Deytona\CapaDato\obj\Debug\CapaDato.csproj.CoreCompileInputs.cache
+C:\Users\Cruz\Downloads\Proyecto Ingenieria\Deytona\Deytona\CapaDato\obj\Debug\CapaDato.dll
+C:\Users\Cruz\Downloads\Proyecto Ingenieria\Deytona\Deytona\CapaDato\obj\Debug\CapaDato.pdb
