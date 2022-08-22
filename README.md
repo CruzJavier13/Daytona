@@ -6,7 +6,7 @@
 
 ![Daytona](Daytona.png "Daytona.png")
 ![Bienvenida](Bienvenida.PNG "Bienvenida.PNG")
-![Cliente](Cliente.png "Cliente.png")
+![Cliente](Cliente.PNG "Cliente.PNG")
 ### Lengua de programación
 * c#
 
